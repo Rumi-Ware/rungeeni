@@ -8,7 +8,7 @@ const items=[
 {t:"Campus cat",c:"Nature",img:"photos/campus-cat.jpg",e:"🐈",g:["#444","#a8a8a8"],h:220},
 {t:"Mini room tour",c:"Daily life",img:"photos/mini-desk-tour.jpg",e:"🕯️",g:["#e08a1e","#7a2e12"],h:280},
 {t:"Washi tape set",c:"Handmade",img:"photos/washi-tape-set.jpg",e:"🎀",g:["#e0627f","#f7b267"],h:210},
-{t:"Hand-bound notebook",c:"Handmade",img:"photos/hand-bound-books.jpg",e:"📓",g:["#2f8f86","#e0627f"],h:290},
+{t:"Hand-bound notebook",c:"Handmade",img:"photos/hand-bounded-books.jpg",e:"📓",g:["#2f8f86","#e0627f"],h:290},
 {t:"Rainy day at home",c:"Daily life",video:"videos/rainy-day-at-home.mp4",e:"🌧️",g:["#8fb8c9","#3d6d83"],h:250},
 {t:"Pink blossoms",c:"Nature",img:"photos/pink-blossoms.jpg",e:"🌸",g:["#f7b2c4","#c2456b"],h:230},
 {t:"Bangles and candle",c:"Photography",img:"photos/bangles-and-candle.jpg",e:"🔥",g:["#f3a63a","#8a2f10"],h:270}

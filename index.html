@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>rungeeni · architecture student, photographer, maker</title>
+<meta name="description" content="Portfolio and journal of an architecture student: photography, handmade crafts, desk tours and day-in-my-life stories.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Nunito:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap">
+<a class="logo" href="#top">rungeeni</a>
+<a href="#gallery">Gallery</a><a href="#journal">Journal</a><a href="#architecture">Architecture</a><a href="#about">About</a><a href="#contact">Contact</a>
+<button id="theme" type="button" aria-label="Switch light or dark theme">Dark mode</button>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+<div>
+<h1>rungeeni</h1>
+<p>Architecture student, photographer and maker of small handmade things. I collect warm light, old books, rings, cats and quiet rainy afternoons.</p>
+<div class="cta"><a class="btn" href="#gallery">See my gallery</a><a class="btn alt" href="#contact">Work with me</a></div>
+</div>
+<div class="stack" aria-hidden="true">
+<div class="pol p1"><div class="ph" style="background:linear-gradient(135deg,#f3a63a,#c9531e)">☕</div><b>cafe date</b></div>
+<div class="pol p2"><div class="ph" style="background:linear-gradient(135deg,#2f8f86,#9bd1b8)">🌿</div><b>rainy day</b></div>
+<div class="pol p3"><div class="ph" style="background:linear-gradient(135deg,#e0627f,#f7b267)">✨</div><b>mini desk tour</b></div>
+</div>
+</div></header>
+
+<section id="gallery"><div class="wrap">
+<h2>Gallery</h2>
+<p class="lead">Photos and handmade pieces from my days. Tap any picture to see it bigger.</p>
+<div class="filters" id="filters" role="group" aria-label="Filter gallery"></div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section id="journal" style="background:var(--bg2)"><div class="wrap">
+<h2>Journal</h2>
+<p class="lead">Slow stories from uni life, my room and my desk.</p>
+<div class="posts">
+<article class="post"><small>September</small><h3>A day in my life</h3><p>Morning light, a campus walk, studio deadlines and a cup of something warm. Replace this with your own story.</p></article>
+<article class="post"><small>August</small><h3>Mini desk tour</h3><p>Washi tape, pens, tiny stars and the sketchbook I never leave home without.</p></article>
+<article class="post"><small>Rainy season</small><h3>Rainy day at home</h3><p>Chai, a good book and a window full of rain. Add photos and a few lines here.</p></article>
+</div>
+</div></section>
+
+<section class="arch" id="architecture"><div class="wrap">
+<h2>Architecture work</h2>
+<p class="lead">University projects, sketches and models. Add a title, a year and one sentence for each.</p>
+<div class="projects">
+<div class="proj"><div class="ph">Plan or model photo</div><h3>Studio project one</h3><p>Site, concept and what I learned. Semester 1.</p></div>
+<div class="proj"><div class="ph">Sketch or render</div><h3>Studio project two</h3><p>A small building study with hand drawings. Semester 2.</p></div>
+<div class="proj"><div class="ph">Physical model</div><h3>Model making</h3><p>Cardboard, foam board and a lot of glue.</p></div>
+</div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap">
+<div class="pol" style="position:relative;width:min(300px,80%);justify-self:center;transform:rotate(-3deg);animation:none"><div class="ph" style="background:linear-gradient(135deg,#f3a63a,#e0627f)">📷</div><b>that's me (add photo)</b></div>
+<div>
+<h2>Hi, I'm rungeeni</h2>
+<p>I study architecture, and I look at the world as shapes, light and small details. I photograph what I love, make things by hand and write about ordinary days that feel like Ghibli scenes. Write two or three sentences of your own story here.</p>
+<div class="chips"><span>Photography</span><span>Handmade art</span><span>Journaling</span><span>Architecture</span><span>Stationery</span><span>Cats</span></div>
+</div>
+</div></section>
+
+<section id="contact" style="background:var(--bg2)"><div class="wrap">
+<h2>Say hello</h2>
+<p class="lead">For photo shoots, commissions or collaborations, send a message.</p>
+<form id="cf" novalidate>
+<div><label for="n">Your name</label><input id="n" name="name" autocomplete="name" required></div>
+<div><label for="e">Email</label><input id="e" name="email" type="email" autocomplete="email" required></div>
+<div><label for="t">What is this about?</label><select id="t"><option>Photography</option><option>Handmade commission</option><option>Collaboration</option><option>Something else</option></select></div>
+<div><label for="m">Message</label><textarea id="m" rows="5" required></textarea></div>
+<button class="btn" type="submit">Send message</button>
+<div class="msg" id="msg" role="status"></div>
+</form>
+</div></section>
+
+<footer><div class="wrap">Made with warm light and a lot of tape. Follow along on Instagram <a href="https://www.instagram.com/rungeeni" rel="noopener">@rungeeni</a></div></footer>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer"><button class="btn" type="button" id="close">Close</button><figure><div class="ph" id="lbph"></div><figcaption id="lbcap"></figcaption></figure></div>
+
+<script src="script.js"></script>
+</body>
+</html>

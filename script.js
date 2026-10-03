@@ -1,6 +1,6 @@
 /* GALLERY DATA: to use a real photo, add img:"photos/name.jpg" to an item. */
 const items=[
-{t:"Cafe date",c:"Daily life",img:"photos/.jpg",e:"☕",g:["#f3a63a","#c9531e"],h:260},
+{t:"Cafe date",c:"Daily life",img:"photos/Cafe-date.jpg",e:"☕",g:["#f3a63a","#c9531e"],h:260},
 {t:"September",c:"Stationery",img:"photos/September.jpg",e:"🖍️",g:["#2f8f86","#f3a63a"],h:200},
 {t:"Camera and iced coffee",c:"Photography",img:"photos/camera-and-iced-coffee.jpg",e:"📷",g:["#9bd1b8","#2f8f86"],h:300},
 {t:"Rings and old books",c:"Photography",img:"photos/Rings-and-old-books.jpg",e:"💍",g:["#c9a477","#6b4226"],h:240},
@@ -9,7 +9,7 @@ const items=[
 {t:"Mini room tour",c:"Daily life",img:"photos/mini-room-tour.jpg",e:"🕯️",g:["#e08a1e","#7a2e12"],h:280},
 {t:"Washi tape set",c:"Handmade",img:"photos/washi-tape-set.jpg",e:"🎀",g:["#e0627f","#f7b267"],h:210},
 {t:"Hand-bound notebook",c:"Handmade",img:"photos/hand-bound-notebook.jpg",e:"📓",g:["#2f8f86","#e0627f"],h:290},
-{t:"Rainy day at home",c:"Daily life",img:"photos/rainy-day-at-home.jpg",e:"🌧️",g:["#8fb8c9","#3d6d83"],h:250},
+{t:"Rainy day at home",c:"Daily life",video:"videos/rainy-day-at-home.mp4",e:"🌧️",g:["#8fb8c9","#3d6d83"],h:250},
 {t:"Pink blossoms",c:"Nature",img:"photos/pink-blossoms.jpg",e:"🌸",g:["#f7b2c4","#c2456b"],h:230},
 {t:"Bangles and candle",c:"Photography",img:"photos/bangles-and-candle.jpg",e:"🔥",g:["#f3a63a","#8a2f10"],h:270}
 ];
